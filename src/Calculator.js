@@ -25,11 +25,11 @@ function Calculator() {
       return false;
     }
     if (num1 === '') {
-      setErrorMessage('Number 1 cannot be empty.');
+      setErrorMessage('Num1 cannot be empty.');
       return false;
     }
     if (num2 === '') {
-      setErrorMessage('Number 2 cannot be empty.');
+      setErrorMessage('Num2 cannot be empty.');
       return false;
     }
     if (!/^-?\d*\.?\d+$/.test(num1) || !/^-?\d*\.?\d+$/.test(num2)) {
@@ -91,7 +91,7 @@ function Calculator() {
         <button onClick={handleDivision}>/</button>
       </div>
       {errorMessage && !successMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-      {successMessage && result && <p>Result: {result}</p>}
+      {successMessage && result && <p>Result={result}</p>}
       {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
     </div>
   );
