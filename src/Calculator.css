@@ -1,0 +1,19 @@
+.cal{
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+  margin-left: 545px;
+    display: flex;
+   gap: 20px;
+   text-align: center;
+}
+.num{
+   border: 1px solid white;
+   outline: none;
+   width: 170px;
+   text-align: center;
+   margin-left: 545px;
+    margin-top: 10px;
+  
+}
