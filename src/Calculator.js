@@ -91,7 +91,7 @@ function Calculator() {
         <button onClick={handleDivision}>/</button>
       </div>
       {errorMessage && !successMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-      {successMessage && result && <p>Result={result}</p>}
+      {successMessage && result && <p>Result=node -v{result}</p>}
       {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
     </div>
   );
